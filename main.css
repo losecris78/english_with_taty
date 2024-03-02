@@ -58,7 +58,7 @@ section{
     padding:0 8.5vw;
 }
 .nav_list{
-    display:flex;
+    display: flex;
     position: fixed;
     gap:50px;
    background-color: #e66465;
@@ -121,4 +121,27 @@ footer{
     max-width: 300px;
     border-radius: 6px;
     border: 1px solid #333;
+}
+.materials img{
+    width:100%;
+    max-width: 300px;
+}
+@media (max-width: 667px){
+    .header h1{
+        font-size: 40px;
+    }
+    .nav-list{
+        padding:0;
+        left: 0;
+        max-width:400px;
+        font-size: 12px;
+        gap:0;
+        flex-direction:column;
+
+    }
+    .materials{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
 }
