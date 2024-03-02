@@ -78,6 +78,9 @@ section{
     list-style-type: none;
     
 }
+.nav_list__item:active{
+background-color: #e6e6de;;
+}
 .nav_list__item a{
     color:#333;
     text-decoration: none;
@@ -103,4 +106,19 @@ footer{
 .subtittle{
     margin: 150px auto;
     padding-top: 50px;
+}
+.groups{
+    display: flex;
+    justify-content: space-between;
+
+}
+.groups__item{
+    list-style-type: none;
+    display:block
+} 
+.groups__item img{
+    width:100%;
+    max-width: 300px;
+    border-radius: 6px;
+    border: 1px solid #333;
 }
