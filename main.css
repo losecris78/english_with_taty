@@ -93,10 +93,15 @@ background-color: #e6e6de;;
 }
 .materials{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    gap: 10px;
 }
 .materials>li{
     list-style-type: none;
+}
+.materials img{
+    max-height: 250px;
+
 }
 footer{
     text-align: center;
